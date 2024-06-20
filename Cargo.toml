@@ -1,0 +1,15 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name = "mqtt"
+version = "0.0.1"
+edition = "2021"
+authors = ["ifeisier <ifeisier@hotmail.com>"]
+description = "快速创建 rumqttc 客户端."
+repository = "https://github.com/ifeisier/mqtt"
+license-file = "LICENSE"
+
+
+[dependencies]
+anyhow = "1.0.86"
+rumqttc = "0.24.0"
